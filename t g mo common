@@ -1,0 +1,11 @@
+[33mcommit 320c7829ffcdcf999f5c0a1b1b8498fb5eb12897[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Depilzone <sistemas@depilzone.net>
+Date:   Tue Dec 10 17:44:15 2024 -0500
+
+    feat: add MongoDB integration and update Pokemon entity with validation
+
+[33mcommit fc27bee9d397c86b834d2e6698e15c35802e4bdb[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Depilzone <sistemas@depilzone.net>
+Date:   Sat Dec 7 18:53:08 2024 -0500
+
+    [INIT]

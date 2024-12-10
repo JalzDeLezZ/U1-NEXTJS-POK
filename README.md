@@ -24,8 +24,13 @@ $ docker-compose up -d
 * Nest
 
 
-## Dependences
+## Development
 ```
+# Dependences
 $ npm i --save @nestjs/mongoose mongoose
 $ yarn add class-validator class-transformer
+
+# Comands
+$ nest g mo common
+$ nest g pi common/pipes/parseMongoIdx --no-spec
 ```
