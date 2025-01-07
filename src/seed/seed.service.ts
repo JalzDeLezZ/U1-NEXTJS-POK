@@ -6,6 +6,7 @@ import { PokeAPII } from './interfaces/poke-res.interface';
 import { InjectModel } from '@nestjs/mongoose';
 import { Pokemon } from 'src/pokemon/entities/pokemon.entity';
 import { Model } from 'mongoose';
+import { AxiosAdapter } from 'src/common/adapters/axios.adapter';
 
 @Injectable()
 export class SeedService {
@@ -14,6 +15,7 @@ export class SeedService {
   constructor(
     @InjectModel(Pokemon.name) private pokemonModel: Model<Pokemon>,
     private readonly httpService: HttpService,
+    private readonly axiosAdapter: AxiosAdapter //? custom http adapter
   ) {}
 
   async executeSeed() {
