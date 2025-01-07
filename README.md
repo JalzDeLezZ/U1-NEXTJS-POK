@@ -33,4 +33,5 @@ $ yarn add class-validator class-transformer
 # Comands
 $ nest g mo common
 $ nest g pi common/pipes/parseMongoIdx --no-spec
+$ nest g res <name> --no-spec
 ```
