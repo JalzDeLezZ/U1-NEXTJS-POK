@@ -17,7 +17,16 @@ $ npm i -g @nestjs/cli
 ```
 $ docker-compose up -d
 ```
-5. Reconstruir la base de datos con la semilla
+5. Clonar el archivo ___.env.template___ y renombrar a ```.env```
+
+6. Llenar las variables de entorno definidas en el ```.env```
+
+7. Ejecutar la aplicación en dev
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos con la semilla
 ```
 * http://localhost:3000/api/v2/seed
 ```
@@ -34,6 +43,7 @@ $ docker-compose up -d
 $ npm i --save @nestjs/mongoose mongoose
 $ yarn add class-validator class-transformer
 $ yarn add @nestjs/configi //? enviroments
+$ yarn add joi
 
 # Comands
 $ nest g mo common
