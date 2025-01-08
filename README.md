@@ -33,6 +33,7 @@ $ docker-compose up -d
 # Dependences
 $ npm i --save @nestjs/mongoose mongoose
 $ yarn add class-validator class-transformer
+$ yarn add @nestjs/configi //? enviroments
 
 # Comands
 $ nest g mo common
